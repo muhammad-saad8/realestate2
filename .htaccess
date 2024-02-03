@@ -14,3 +14,12 @@ RewriteRule . /realestate2/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<Files "D:\PORTFOLIO\htdocs\realestate2/wp-content/uploads\simply-static\\b0530e7c75de16db2d48174c656ea089-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
